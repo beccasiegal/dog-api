@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Get Random Dog Pictures</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <header>
+    <span class="banner-text">See Dog Pics!</span>
+    </header>
+
+    <main>
+      <div>Number of dogs to see? (Will show 3 if you don't choose)</div>
+      <form id="dog-form">
+        <input id="dog-input" type="text" name="dog-number">
+        <input type="submit" name="submit">
+      </form>
+    
+      <section>
+        <div class="dog-image-results"></div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
